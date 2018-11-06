@@ -13,4 +13,4 @@ RUN npm install
 # RUN npm install --only=production
 
 FROM nginx:alpine
-COPY --from=builder /usr/src/app /usr/share/nginx/html
+COPY --from=builder /usr/src/app/node_modules /usr/share/nginx/html/node_modules
