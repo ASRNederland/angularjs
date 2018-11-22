@@ -22,6 +22,6 @@
 		"masonry-layout": "3.3.2",
 		"angular-masonry": "0.17.0",
 		"angular-base64": "2.0.5",
-		"@azure/msal-angularjs": "0.1.1"
+		"adal-angular": "1.0.17"
 	}
 }
